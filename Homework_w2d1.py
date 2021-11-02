@@ -1,5 +1,5 @@
 #QUESTION 1
-# Create a calculator using functions that asks for two numbers and performs a calculation that the user inputs... Loop until the user chooses not to perform any more calculations
+# Create a calculator using functions that asks for two numbers and performs a calculation that the user inputs... Loop until the user chooses not to perform any more calculations.
 
 a=input("GIMME YO FIRST NUMBER...\n")
 d="Your result is  "
@@ -21,7 +21,7 @@ while o=="y":
     elif c=="/":
         i = int(a)//int(b)
         ii= int(a)%int(b)
-        print(d, i," and your remainder is " , ii)
+        print(d, i," and your remainder is " ,ii)
     print("\n\n")
     a=i
     print("Do you want to keep going?")
